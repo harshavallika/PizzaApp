@@ -58,7 +58,7 @@ public class PizzaApp {
 			qt =scanner.nextInt();
 			pizza3.setQuantity(qt);
 			order.addItem(pizza3);
-			System.out.println("Added Farmhouse to your order.");
+			System.out.println("Added Veg Farmhouse to your order.");
 			break;
 		case 4:
 			System.out.println("How many would you like to order?");
@@ -71,7 +71,7 @@ public class PizzaApp {
 		qt =scanner.nextInt();
 		pizza5.setQuantity(qt);
 			order.addItem(pizza5);
-		System.out.println("Added Pepper Barbecue Chicken to your order.");
+		System.out.println("Added Supreme Chicken to your order.");
 		break;
 		case 0:
 			System.out.println("**********************************************************************");
